@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<style>
+
+   
+</style>
+<body>
+    <div class="form"></div>
+    <form method="post" action="index.php"></form> <br>
+    
+    <h1 style="background-color:DodgerBlue">Cadastro de Filmes</h1><br>
+    <label for="codigo">  Código</label>
+    <input type="text" size="10"placeholder="Código">
+    <label for="Data">Data de Cadastro:</label>
+    <input type="date" name="data"id="Data Cadastro"><BR>
+        <label for="titulo">Titulo:</label><br>
+        <input type="text" size="71"placeholder="Nome do Filme"><BR><br>
+
+            <label for="genero">Gênero</label>
+            <select name="Gênero" id="genero">
+            <option value="0">Selecione o Gênero</option>
+            <optgroup label="Ação">
+            <option value="1">Guerra</option>
+            <option value="2">Policial</option>
+            </optgroup>
+            <optgroup label="Aventura">
+                <option value="1">Aventura</option>
+                <option value="2">Ficção</option>
+                <option value="3">Fantasia</option>
+                <option value="4">Farroeste</option>
+            </optgroup>
+            <optgroup label="Comédia ">
+                <option value="1">Comédia</option>
+                <option value="2">Comédia Romântica</option>
+            </optgroup>
+            <optgroup label="Drama">
+                <option value="1">Drama</option>
+                <option value="1">Romance</option>
+            </optgroup>
+            
+           
+            </select>
+            <label for="catalogo">Catálago/Coleção</label>
+            <input type="text"placeholder="Catálago, Coleção"><br><br>
+            <label for="origem">Origem</label>
+            <input type="text"placeholder="Local do arquivo">
+            <label for="datalancamento">Ano de Lançamemto</label>
+            <input type="text"size="8"placeholder="Lançamento"></label><br><br>
+            <input type="submit"value="Enviar"> &nbsp;&nbsp;
+            <input type="Button"value="Voltar">
+
+
+            
+</body>
+</html>
